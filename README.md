@@ -20,9 +20,9 @@ Bugs
 
 I ran into two bugs I am still trying to fix.
 
-1. Printing player names to users player watchlist. Currently it only prints out NBA. I added this a safeguard to show my theory. 
+1. Printing player names to users player watchlist. Currently it only prints API specific player_id.
 
-2. Entering a season for a player in which that player did not play in will give you an error message forcing you to restart app by running ruby bin/run.rb. 
+2. Entering a season for a player in which that player did not play in will give you an error message forcing you to restart app by running ruby bin/run.rb.
 
 License
 
