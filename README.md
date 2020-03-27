@@ -18,7 +18,11 @@ I plan to scale this app, connecting players to their respective teams and build
 
 Bugs
 
-If you enter your favorite player and then enter a year in which selected player didn't play, you will receive an error and must restart the CLI app by running ruby bin/run.rb. This is a CLI in process and apologize for the bug.
+I ran into two bugs I am still trying to fix.
+
+1. Printing player names to users player watchlist. Currently it only prints out NBA. I added this a safeguard to show my theory. 
+
+2. Entering a season for a player in which that player did not play in will give you an error message forcing you to restart app by running ruby bin/run.rb. 
 
 License
 
