@@ -1,7 +1,5 @@
-Name
 NBA Players Command Line Database Application.
 
-Description
 The NBA Players APP allows a user to create a username, enter their favorite NBA player, enter a season/year and receive the players respective stats for given year(1981 to present).
 A user can add their favorite players to a watchlist, view their watchlist, continue searching for NBA player stats and exit the app.
 The App is requesting NBA data from the balldontlie API. https://www.balldontlie.io/#introduction
@@ -9,14 +7,17 @@ The App is requesting NBA data from the balldontlie API. https://www.balldontlie
 Visuals
 
 Installation
+
 Clone the repository to your local machine
 In the parent directory of the cloned repository run bundle install to install the required Ruby Gems.
 In the same directory run ruby bin/run.rb to start the application
 
 Roadmap
+
 I plan to scale this app, connecting players to their respective teams and building out the user_players watchlist with player / team stats.
 
 License
+
 #Learn.co Educational Content License
 
 Copyright (c) 2015 Flatiron School, Inc
