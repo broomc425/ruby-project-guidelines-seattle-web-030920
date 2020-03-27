@@ -100,6 +100,8 @@ class NBAPlayersApp
         puts""
         puts "3. Search for another Player"
         puts""
+        # puts "4. Remove Player from Watchlist"
+        # puts""
         puts "4. Exit APP"
         puts "-----------------------------------------"
 
@@ -112,7 +114,7 @@ class NBAPlayersApp
         if input == "1"
             puts "-----------------------------------------"
             @player = Player.create(name: @name, player_id: player_id)
-            @user_player = UserPlayer.create(user_id: @user.id, player_id: player_id)
+            @user_player = UserPlayer.create(user_id: @user.id, player_id: player_id, name: @name)
             # @player.id
             puts "-----------------------------------------"
             menu_prompt(player_id)
@@ -122,6 +124,9 @@ class NBAPlayersApp
         elsif input == "3"
             player_search()
             user_menu_input(player_id)
+        # elsif input == "4"
+        #     remove_player()
+        #     user_menu_input(player_id)
         elsif input == "4" || input == "exit"
             exit_program()
         else
@@ -130,10 +135,12 @@ class NBAPlayersApp
         end
     end
 
+    # def remove_player
+        
+    # end
+
     def player_watchlist()
-        Player.all.select do |players|
-            puts "NBA"
-        end
+        puts "#{@user_player["player_id"]}"
         puts "-----------------------------------------"
 
         puts "Press Enter for main menu"
