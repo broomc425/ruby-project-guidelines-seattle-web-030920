@@ -8,9 +8,11 @@ Visuals
 
 Installation
 
-Clone the repository to your local machine
-In the parent directory of the cloned repository run bundle install to install the required Ruby Gems.
-In the same directory run ruby bin/run.rb to start the application
+1. Clone the repository to your local machine
+
+2. In the parent directory of the cloned repository run bundle install to install the required Ruby Gems.
+
+3. In the same directory run ruby bin/run.rb to start the application
 
 Roadmap
 
