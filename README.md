@@ -4,8 +4,6 @@ The NBA Players APP allows a user to create a username, enter their favorite NBA
 A user can add their favorite players to a watchlist, view their watchlist, continue searching for NBA player stats and exit the app.
 The App is requesting NBA data from the balldontlie API. https://www.balldontlie.io/#introduction
 
-Visuals
-
 Installation
 
 1. Clone the repository to your local machine
@@ -17,6 +15,10 @@ Installation
 Roadmap
 
 I plan to scale this app, connecting players to their respective teams and building out the user_players watchlist with player / team stats.
+
+Bugs
+
+If you enter your favorite player and then enter a year in which selected player didn't play, you will receive an error and must restart the CLI app by running ruby bin/run.rb. This is a CLI in process and apologize for the bug.
 
 License
 
