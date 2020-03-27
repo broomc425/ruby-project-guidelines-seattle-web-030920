@@ -6,10 +6,10 @@ gem "sinatra-activerecord"
 gem "sqlite3"
 gem "pry"
 gem "require_all"
-<<<<<<< HEAD
+# <<<<<<< HEAD
 
-=======
->>>>>>> 484ea46e2202300ba2a7136bd9bdfd528daa9adb
+# =======
+# >>>>>>> 484ea46e2202300ba2a7136bd9bdfd528daa9adb
 gem "faker"
 
 gem "rest-client", "~> 2.1"
